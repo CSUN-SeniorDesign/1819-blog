@@ -1,0 +1,14 @@
+---
+title: "Project 2 Post 2 - Hayden"
+author: "Hayden"
+cover: "/img/cover.jpg"
+tags: ["Hayden Wilcox", "Zephyr", "Week 6"]
+date: 2018-10-05T12:23:11-07:00
+draft: false
+---
+
+This week, my main task was to continue to figure out and deploy datadog. Last week, I was struggling to get the Datadog agent to install onto my private EC2 instance for testing. To hopefully save on time and effort, I decided to work directly on the project instances that my teammates had set up. While this worked at first, my goal was a little misguided. I had an easier time getting the agent to download on the project instances as their ports were set up correctly, which allowed me to continue on with the project. However, it was brought up to me that due to the nature of the project, the instances would be constantly deleted and remade, which meant that I had to move any files I created off to a more secure location on my local host to preserve them. This meant that I once again had to try to get my personal instance to work with me.
+
+I decided to take another look at the documentation that Neel had created for Terraform. I had approximately half of the ports opened that he did, and decided to add the ones I did not have. After I had done this, the install command finally worked and I began replicating my work from the group instance on my private instance. This was the beginning of a long series of trials as datadog seemed intent on not working. I was able to connect my instance to the Datadog website and create a dashboard allowing for a slew of default metrics to begin being gathered. However, there were a number of metrics that could not be gathered as they were a part of nginx. I followed guides very closely, but no matter what files I made, there was always another problem to contend with. I asked other teams how they were handling their agents, but the responses I got back were all somewhere between not having started or had only just begun. Some teams were using Apache for their webserver, as opposed to our team using Nginx, which further complicated the matter. My team were also busy with other aspects of the project, such as site deployment, which meant they did not have the time to assist me. It was at this point I began communicating closely with the professor, but even with his help, I made very little progress. As it stands,the Datadog Agent has yet to be completed.
+
+This Project turned out to be a harsh lesson for many of us. For me, it taught me to work harder, earlier so as to not fall behind. However it also highlighted a flaw with our group, in that we often fail to communicate as often and thoroughly as we could. This is something to consider when working on further projects.
