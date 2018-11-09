@@ -1,4 +1,4 @@
-#baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "CSUN CIT Senior Design 2018-2019"
 theme = "hugo_theme_pickles"
