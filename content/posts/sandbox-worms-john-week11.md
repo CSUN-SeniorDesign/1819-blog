@@ -3,7 +3,7 @@ title: "John's Blog 11"
 date: 2018-11-08T11:21:47-08:00
 draft: false
 Categories: [Project 6]
-Tags: ["John Vinuya", "Sandbox Worms", "Week 11"]
+Tags: ["John Philip Vinuya", "Sandbox Worms", "Week 11"]
 Author: "John Vinuya"
 ---
 It did take time to assemble our group for the Advancing Tech Lab, despite most of our group carrying over to the this new project, we did some difficulty at first with communication with new group members. While we were arranging that, we also had to learn about the existing configuration Prof. Wiegley had for the server racks. It is important to note that there is documentation that is yet to be written for the setup as well as proper identification for what needed to be implemented in the system. 
