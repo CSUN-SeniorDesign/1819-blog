@@ -1,12 +1,12 @@
 --- 
 title: "Tyler's Blog. Week 11." 
 description: "New Teams" 
-date: "2018-11-8" 
+date: "2018-11-9" 
 categories: [ 
     "Blog",
 ] 
 menu: "main" 
-tags: ["Tyler Kluszczynski", "HAT", "Week 10"]
+tags: ["Tyler Kluszczynski", "HAT", "Week 11"]
 ---
 
 #### What's new this week?
