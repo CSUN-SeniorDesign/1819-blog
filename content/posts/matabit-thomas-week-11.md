@@ -2,6 +2,7 @@
 title: "Thomas Week 11"
 date: 2018-11-10T08:27:21-08:00
 layout: 'posts'
+tags: ["Thomas", "Matabit", "Week 11"]
 draft: false
 ---
 
