@@ -2,6 +2,7 @@
 title: "Shahed Week 11"
 date: 2018-11-09T17:37:57-08:00
 draft: false
+tags: ["Shahed Salehian", "Matabit", "Week 11"]
 layout: 'posts'
 ---
 
