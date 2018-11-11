@@ -1,6 +1,7 @@
 ---
 title: "Erik's Blog. Week 11."
 date: 2018-11-10T16:10:22-08:00
+tags: ["Erik Blomquist", "BEATS", "Week 11"]
 draft: true
 ---
 # Week 11
