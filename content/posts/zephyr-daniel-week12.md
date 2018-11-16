@@ -5,6 +5,7 @@ date: 2018-11-16T13:16:54-08:00
 draft: false
 tags: ["Daniel, "Zephyr", "Week 12"]
 ---
+
 # Week 12
 
 For week 12 we have been working on getting together a testing environment for the two groups we are working with. As well as setup a foundation for them to collaborate with us when they are ready. The foundation setup so far is a discord server where we have our own channels along side the other groups channels. This way we are able to directly communicate with any member of the team in a quickly manner. The other consists of creating a repository for the Irrigation group separate from the Encryption group or vice versa. We are still discussing this as a group but we have thought that this might be a good idea to setup early before we begin actually setting up the live testing environments.
