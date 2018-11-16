@@ -1,7 +1,7 @@
 ---
 title: "Irrigation Post 2 - Week 12"
 author: "Daniel Hirahoka"
-tags: ["Daniel, "Zephyr", "Week 12"]
+tags: ["Daniel", "Zephyr", "Week 12"]
 date: 2018-11-16T13:16:54-08:00
 draft: false
 ---
