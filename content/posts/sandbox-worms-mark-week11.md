@@ -16,7 +16,7 @@ Only one DHCP server can only be running on a single subnet at any point in time
 
 There seems to be a problem with Firewall B.  It randomly kicks me off.   Sometimes it works for a long time, like an hour or more.  Sometimes it only works for 10 minutes and just disconnects me.  For some reason Firewall B has an update installed that requires a reboot.  Professor Weigley was surprised by this saying that only himself and our group had root access and that no automatic updated should be turned on.
 
-I got my Git-Lab account linked with my github account.
+I got my Git-Lab account linked with my github account.  Somehow I did not complete the account creation and it took 3 days and Professor hamilton to pushing me to check for a problem.
 
 I started by finding the conf config file for DNS.  Command for checking on whether bind is running is:   systemctl status bind9
 I found It is running on both firewall A and B.  This makes sense because there is no limit to the number of name servers you can be running at the same time as long as they are configured correctly.
