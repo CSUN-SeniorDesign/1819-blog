@@ -1,0 +1,12 @@
+---
+title: "Beats Alex Week12"
+date: 2018-11-16T22:54:20-08:00
+tags: ["Alexander Enaceanu", "BEATS", "Week 12"]
+draft: true
+---
+
+## Week 12
+In week 12 we had several meetings. There was a meeting with Leo (the original designer of the system) on a Saturday that most of the team was unable to attend. Leo asked to reschedule the meeting so that all of our team members were present. This meeting occurred on Tuesday. All of our team members were there and I believe the meeting was very informative and helpful. Leo answered many of our technical questions. For example, we were wondering why the application was running on a Windows instance even though it uses .NET core which is compatible with Linux. Apparently the system has gone through a redesign to save money and they needed it to run on a single Windows instance for simplicity and there was some sort of dependency regarding dynamical linked library files which only work with Windows. The meeting provided us with a framework for the future as well as the goal of having an environment up and running before the semester ends so that the CS team can begin their project. They will be testing multiple use cases and refining the overall functionality of the SAPS.
+
+We decided to run all necessary configurations via Docker containers. The team believes that this setup will be the most ideal, redundant and cost effective. It is important to note that although there are periods of high activity to the SAPS site, there are no large file uploads or downloads. All of the operations will fall under CRUD, create, read, update, delete. This means that we do not need massive upscaling to occur during peak times. Still, availability of the system is highly important since many students rely on permission numbers for their enrollment.
+I also attended a meeting with the IS team, which I am also on, and Leo. He outlined to them what our plans were, and how they can interact with us. They will be using Jira for project management and task delegation. It was decided that I will remain on both teams and act as a liaison between the two. This will allow the IS team to know what is going on with our team. The CS team will also have a team member liaise between the two entities. It is interesting to see how this project will go with all the moving pieces. It seems that things are off to a good start considering that there have been many details to iron out. There are also intricacies above our level related to the way the CS department and IS department interact and collaborate on projects.
