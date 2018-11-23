@@ -1,5 +1,5 @@
 ---
-title: "Matabit Anthony Week 11"
+title: "Anthony Week 11"
 date: 2018-11-09T14:23:35-08:00
 draft: false
 tags: ["Anthony Inlavong", "Matabit", "Week 11"]
