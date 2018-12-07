@@ -3,6 +3,7 @@ title: "Matabit Shahed Week 14"
 date: 2018-11-28T17:25:09-08:00
 draft: false
 layout: "posts"
+tags: ["Shahed Salehian", "Matabit", "Week 14"]
 ---
 
 # Project Layout, VPC, and Terraform Modules
