@@ -17,7 +17,7 @@ Since this project is going to be handed off to a future team, and that team mig
 
 In ECS it is very important to have a solid understanding of what clusters, serivces and tasks are since a container service is made up of these three resources.
 
-I will not go into detail about the explanations and definitions in this blog post, but i will show some excerpts of the code.
+I will not go into detail about the explanations and definitions in this blog post, but I will show some excerpts of the code.
 
 
 # Task Definition
@@ -41,5 +41,11 @@ Here's what our current task definition looks like for the Node.js Application
 }]
 ```
 
-It is important to note the port mappings here, since this basically says, that the container port (3000) is the port on which the application is running on, and the host port, which is the port host is listening for traffic from the container
+Due to us using Fargate as the ECS launch type, we have to match the container port and the host port as this is one of the requirements stated by the Fargate launchtype.
+
+
+# Static Assets
+
+One element of this project that is on the horizon for us, is static assets. We need to figure out how we want to serve the static assets in this project. As of right now, they're all being served through the application server, however, it would be preferable to offload the static assets to improve performance and load times.
+
 
