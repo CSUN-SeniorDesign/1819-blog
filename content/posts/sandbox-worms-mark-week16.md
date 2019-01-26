@@ -3,7 +3,7 @@ title: "Mark's Blog Week 16"
 date: 2019-01-25T22:01:01
 draft: false
 Categories: [Recap of Project from last semester]
-Tags: ["Mark Siegmund" / "Sandboxworms" /  "Week 16"]
+Tags: [Mark Siegmund / Sandboxworms /  Week 16]
 Author: "Mark Siegmund"
 ---
 
