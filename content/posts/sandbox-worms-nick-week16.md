@@ -1,0 +1,10 @@
+---
+title: "Nick's Blog 16"
+date: 2019-01-25T20:23:54-08:00
+draft: false
+Categories: [CIT 481]
+Tags: ["Nicholas Yoon", "Sandbox Worms"]
+Author: "Nick Yoon"
+---
+I was under the impression we were going to pick up right where we left off from last semester, and for the most part it's been that way so far, but there have been some changes that I'm still getting used to. For one, our instructor has changed and it seems attendance is a matter of importance. Another change is the plan moving forward for our group. It's been hard to collaborate this first week since not everyone has been in class at the same time, but the fact that we may be given an option to work on a different project other than the Advancing Tech project has been brought up to us. Supposedly, we will be given an option to work on something more relevant to what we were learning with Instructor Hamilton last semester. Working with AWS, using cloud based resources, lots of automation stuff, and so forth. Not sure what direction our group will decide to go, but we'll have to make a decision quick before we start divulging into the work. For now, all wee're focusing on is our first presentation. 
+We will pretty much be recycling our very last presentation from last semester prior to going on break. Instructor Smith has requested this from each of the groups so she can gauge how much work has been done, what there is to do, and to get an idea of the level of knowledge and experience each of us have. I have a heavy load this last semester at CSUN so I'm a bit glad this weeks starting off slow, because I know there's calm before the storm. After this week, we'll focus on what we need to be doing both individually and together as a group, to try and accomplish completing as much of this project as possible before the semester ends. 
