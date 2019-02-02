@@ -1,0 +1,13 @@
+---
+title: "Nick's Blog 17"
+date: 2019-02-01T16:53:12-08:00
+draft: false
+Categories: [Comp 481]
+Tags: ["Nicholas Yoon", "Sandbox Worms"]
+Author: "Nick Yoon"
+---
+I was tasked with documenting inventory of all of the machines we're working on in the MDF. We were able to meet with Professor Wiegley and had a brief walkthrough in the MDF with him and the entire team, which was really helpful. The noise from all of the servers in the room made it extremely difficult to hear him plus there wasn't much room between the racks for all of seven of us to squeeze into so it was a bit hard to hear, but it seemed like all of us got bits and pieces of what he was saying so hopefully we'll be able to figure it out without having to bother him too much. First we have to get the servers mounted and find the right port to plug into, which was the reason for the walkthrough to begin with. We wanted to get some direction on what ports are available for us to plug into for the new servers that we're mounting. 
+
+I was able to get access to the MDF on my own time with Mark's help and took pictures of the physical layout and specs of the machines that are currently mounted in the racks. I'll be listing everything on spreadsheets over the weekend and hopefully get some more access come Monday. It's a mixture of several different HP blade servers which consists of ProLiant BL620c G7, BL460c G6, BL460c G7, BL680c G5, and BL680c G7 servers. There's two racks we're working in which consists of three stacks of blade servers. In each stack there's a total of 16 blades with SAS drives that have 146 GB of storage, except for the very bottom stack which has one blade with two 300 GB SAS drives. I need the info for the two servers that still need to be mounted. I know some of the team members helped install the motherboard and installed Ubuntu 18.10, they got one up successfully but I heard they were having issues with the other. Not sure if the problem persists since the last time we met, it looked like everything was running successfully. 
+
+My plan for the next week is to continue working on completing the list of equipment in inventory, grab a list of initial services that are currently running, figure out which IP addresses are addressed to which machines, what the purpose of each server is, and hopefully get a deeper understanding of the infrastructure. I'm hoping to get this out to the team by the weekend so we can all have an initial overview of the layout and add comments as necessary. 
