@@ -12,7 +12,7 @@ Marks Blog Week 17					February 1, 2019
 This week we formed our project scope and how the group members.  This was difficult as we broke up the group we had last semester.  On Tuesday 4 of us replaced the motherboard where the ethernet port was not functioning.  This involved moving the 56 gigs of RAM and the 2 processors over to the new motherboard.  We had to remove the heat sink grease and apply new grease.  To remove the old motherboard from the case we had to remove all the fan assemblies, the riser card adapter (this is for adding a PCIe option card) the power connector for the hard disk enclosure, and the cables for data transfer to the hard disk case.  The only issue we had was that one RAM module was not fully inserted in its slot.  The system came up with a memory error.  We simply turned off the system and fully inserted the memory module and restarted.
 The memory module type is PC3 (or DDR3) ECC unbuffered.
 
-On Wed Jon is going to work on the motherboard install and we are going to configure the RAID configuration to RAID 1 (Mirrored) with a spare.  We only have 3 146G SAS drives.  And last is to install Ubuntu Server 18.10.
+On Wed Jon is going to work on the motherboard install and we are going to configure the RAID configuration to RAID 1 (Mirrored) with a spare.  We only have 3 146G SAS drives.  And last is to install Ubuntu Server 18.04.
 
 John, Yerden, Mario, Thomas, and Neel worked on the servers in JD1109 wth me on both Wednesday and Thursday.  Nick worked on the documentation of equipment in the MDF.  
 
