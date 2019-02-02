@@ -1,0 +1,14 @@
+---
+title: "Matabit Thomas Week 17"
+date: 2019-02-01T19:40:04-08:00
+layout: 'posts'
+tags: ["Thomas", "Matabit", "Week 17"]
+draft: false
+---
+
+# Week 17
+For week 17 we took a look at the hardware of our two new servers and did some testing to make sure everything was working properly before mounting them in their cages. First we replaced the motherboard of one of our machines because it was having issues pinging other hosts through the first networking port. With guidance from Mark we had no issues being able to replace the motherboard and assemble the machine back together. The thermal paste we had one hand was dried up but usable for the time being. Mario brought in his own thermal paste which we were able to use on both of the new machines. We also took the time to take pictures of the inside of the machine and document the amount of memory, the types of CPUs, and the storage that was present on the machine. We discovered that one of the machines had three hard drives but they were striped and acting as one logical drive. We left it this way for testing purposes and decided to come back to it to set the proper RAID configuration.
+
+With the new motherboard installed we were able to get IP addresses and ping the gateway using each of the network ports on both of our new machines. We then took the time to go into the settings to adjust our RAID configuration so that we would enable mirroring on two of our drives and have one extra drive as a spare. Once we had the proper configuration we moved to install a new OS on our machines and upgrade it to Ubuntu 18.10 LTS. However, after we installed 18.10 on our new machines, we were running into the same issue from before where we couldn't ping from our first networking port on one of our machines. After troubleshooting for quite some time and attempting to adjust and reset network settings, we determined it must be some issue with Ubuntu 18.10 and so we reverted back to using Ubuntu 18.04. After reverting back we had no issues from pinging from each of our ports.
+
+After setting up each server with a new OS and documenting hardware, accounts, serial numbers, and ILO login info we went ahead and mounted the machines in the cages in the MDF and hooked them up to power and ethernet to determine if they would be given an IP address from DHCP. We issues an "ifconfig" command to each machine and verified that they were each receiving an IP address in the 130.166 range. Moving into next week we will look closer into the configurations of these new servers such as the iptables, DNS, and DHCP. I will be taking a closer look at the iptables to determine how to set up the rules and how we can automate the set up and configuration process of our firewall to allow for much easier deployment of our configurations.
