@@ -1,8 +1,9 @@
 ---
 title: "Erik's Blog. Week 16."
 date: 2019-01-25T18:16:56-08:00
-draft: true
+draft: false
 tags: ["Erik Blomquist", "BEATS", "Week 16"]
+layout: 'posts'
 ---
 
 # CIT 481 - SAPS
