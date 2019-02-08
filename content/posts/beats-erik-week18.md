@@ -9,7 +9,6 @@ layout: 'posts'
 # Week 18
 
 ## Create your first AWS Lambda function with Terraform
-![aws-lambda-logo](http://www.digiclarity.com/images/technology/templates/lambda.jpg)
 
 This post will go over how to create your first AWS Lambda function which uses the API Gateway to return "Hello World!".
 
