@@ -15,35 +15,25 @@ This week was more about finishing up our infrastructure documentation, and thus
 The Computer Science team has been switching and adding technologies, which is keeping us on our toes. The switch from React.js to Angular.js isn't necessarily a big deal, because we hadn't implemented a "Frontend" container anyways. However, one of our tasks that has been thrown into the sprint for this week is to create a development angular.js container so that the developers can have all their dependencies and dev infrastructure within their docker-compose file. We have managed to include all the containers and change the project structure to accomodate the new container. 
 The containers and servers now all start-up, however, the front-end is not properly exposed to the host machine.
 
-Here's our current Angular.js Dockerfile
+Here's our current Angular.js Dockerfile:
 
 ```
 FROM node:10-alpine
 
-# Create app directory
 WORKDIR /usr/src/app
-
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND 
-package-lock.json are copied
-# where available (npm@5+)
 
 COPY package*.json ./
 
 RUN npm install -g @angular/cli
 RUN npm install
 
-# If you are building your code for production
-# RUN npm install --only=production
-
-# Bundle app source
 COPY . .
 
 EXPOSE 4200
 CMD [ "ng", "serve" ]
 ```
 
-and here's our current project structure
+And here's our current project structure for the application repository:
 ```
 .
 ├── backend
