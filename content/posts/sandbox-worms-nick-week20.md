@@ -1,0 +1,11 @@
+---
+title: "Nickblog20"
+date: 2019-02-22T23:15:56-08:00
+draft: false
+Categories: [Comp 481]
+Tags: ["Nicholas Yoon", "Sandbox Worms"]
+Author: "Nick Yoon"
+---
+This was the first leg of a sprint with a new group working on a new project, so naturally, things got off to a bit of a rocky start. Since we've been assigned to these new groups, I've never seen any of my group members in class at the same time as myself. It's not like I go all the time - twice a week on Mondays and Wednesdays because I have work on Tuesdays and Thursdays - but still no face-to-face meetings. Obviously, we haven't collaborated together as a whole group, so no brainstorm sessions. We were able to lay down the tasks necessary to complete this first leg of the project, but I'm not sure how everyone's doing on their part. I chose to work on IAM, security groups, and installing a LAMP stack on a local VM just to practice. I came up with some scripting for both the IAM policies and security groups, but we don't have a repo for your team so not sure where to push my scripts to. My internet at home has been extremely wonky these past couple weeks so understandably it's been frustrating. The class assignment this week was pretty much the same thing we did for our project - as far as installing LAMP stack on a VM - but I've been extremely busy with work, school, and family so it's been hard managing my time this week. I was able to get the assignment done, but not until the next day.
+
+As a team, we need to open up more channels of communication to better coordinate our collaborative efforts. I have yet to automate the process of spinning up a instance using Terraform code because I'm still trying to get my head around the whole thing. I don't quite have a strong understanding of Terraform and that's one part of the project I need help with. I chose this project because I am truly interested in learning about the entire cloud architecture environment. I want to understand the services and functionalities of the many resources available on AWS. I understand there's other services outside of AWS, but this is where I would like to start. We were exposed to a lot of this material last semester with Professor Hamilton, but trying to learn this stuff on my own did not work so well for me. 
