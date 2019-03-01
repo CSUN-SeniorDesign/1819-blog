@@ -2,6 +2,7 @@
 title: "Brian's Blog. Week 6 Spring"
 date: 2019-3-1T15:57:18-07:00
 draft: false
+layout: 'posts'
 tags: ["Brian Sandoval", "saps", "week6"]
 ---
 # Week 6 Spring Brian's Blog
