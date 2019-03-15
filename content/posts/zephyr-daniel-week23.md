@@ -2,7 +2,7 @@
 title: "Zephyr Daniel Week23"
 date: 2019-03-15T10:40:31-07:00
 draft: false
-tags: ["Daniel", "Zephyr", "Week 23]
+tags: ["Daniel", "Zephyr", "Week 23"]
 ---
 
 # Week 23
