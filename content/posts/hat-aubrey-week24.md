@@ -10,7 +10,7 @@ One of the things that we have put on hold is copying the themes to the image. M
 
 On the CI/CD of gitlab, we checkout our repository. So the runner, will have a copy of everything in the repo. This means that if we do this right, the dockerfile in building image locally (for development purposes) and on CI/CD can and should be the same. 
 
-I need to work on the dockerfile and the docker-entrypoint. This means that I am dealing with the pesky EOL conversion of windows. I set my IDE to use Linux EOL but git is converting them to CRLF (windows). The following command will stop git for windows in converting the script EOL when pushing to the remote repo. 
+I need to work on the dockerfile and the docker-entrypoint. This means that I am dealing with the pesky EOL conversion of windows. I set my IDE to use Linux EOL but git is converting them to CRLF (windows). The following command will stop git for windows in converting the script EOL when pushing to the remote repo and it will convert my EOL to LF also.
 
 git config --global core.autocrlf input
 
