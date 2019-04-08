@@ -10,7 +10,7 @@ Tonny Wong
 	
 		- ASG with New AMI
 		
-		- AWS Terraform alternatice: CloudFormation
+		- AWS Terraform alternative: CloudFormation
 		
 		- Ansible practice
 		
@@ -24,7 +24,7 @@ Tonny Wong
 
 	- Testing:
 		
-		- Cloud Formation terraform file
+		- Cloud Formation: terraform file alternative
 		
 		- Ansible playbooks
 		
