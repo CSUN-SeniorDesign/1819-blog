@@ -11,7 +11,7 @@ Marks Blog Week 26						               April 12, 2019
 
 This week I pressed on working on Firewall Builder.  The executable is fwbuilder.
 First problem I encountered was that it would start up but nothing was clickable.  I discovered that a splash screen came up each time I started up fwbuilder.  If I did not close the splash screen it cause this problem.  That one was easy to fix.  Next fwbuilder needed to be run as root.
-So    sudo fwbuilder.  From last week when running on windows a program that supports x-windows applications needs to be used.  Moba Xterm is what I chose.
+    sudo fwbuilder.  From last week when running on windows a program that supports x-windows applications needs to be used.  Moba Xterm is what I chose.
 To run a x-window session from a mac or Ubuntu Mario and Thomas found that 
     ssh -X  techlab@130.166.240.19 fwbuilder
 Works of their respective machines.  One has Mac OS10 and the other is running Ubuntu 18.10.
