@@ -12,7 +12,7 @@ tags: ["Tyler Kluszczynski", "HAT", "Week 27"]
 ### What's new this week?
 This week, I have made a lot of progress on our infrastructure. Some plans from the original design document have changed, so I will cover those first, then dive into what I worked on.
 
-#### Infrastructure Changes
+#### Infrastructure changes
 Some noteworthy changes to our infrastructure changes:
 * We are using Prometheus instead of ELK, due to system resource problems (this will be covered in more detail in next week's presentation).
 * We no longer require use of a CI-CD pipeline, as there is a user-data section in the Lightsail instance that allows us to input a script that's run when the instance is first created.
@@ -28,7 +28,7 @@ Later in the week, I attempted to set up ElasticSearch, which was unsuccessful d
 
 Some more minor contributions were setting up the gitignore file to ignore .terraform and .tfstate files and the instance's private key if a user accidentally forgets to delete it. I also created the provider.tf which sets the region to "us-west-2". I also created our infrastructure diagram.
 
-#### Plans next sprint.
+#### Plans next sprint
 Here are some plans I have for next sprint:
 * Create documentation for our user-data script once it's complete.
 * Have a separate script that gets ran each time the instance is started up (as of now, if the instance restarts, Prometheus will stop).
