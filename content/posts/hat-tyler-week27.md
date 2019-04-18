@@ -1,7 +1,7 @@
 ---
 title: "Tyler's Blog. Week 27."
 description: "Project Progress."
-date: "2019-4-19"
+date: "2019-4-18"
 categories: [
     "Blog",
 ]
