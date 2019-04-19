@@ -1,3 +1,10 @@
+---
+title: "Brian's Blog. Week 12 Spring"
+date: 2019-8-1T15:57:18-07:00
+draft: false
+layout: 'posts'
+tags: ["Brian Sandoval", "saps", "week12"]
+---
 # Brian's Blog Week 12 Spring
 ## Overview this week
 This week was a bit hectic in the beginning of it since our infrastructure went down at the beginning of the week. For some reason our production site was broken and we had to spend around 2 days trying to figure out how we could bring it back up. The issue seemed to be that there was not enough memory for our website so we had to increase the size. It was a bit odd to see this error becaus we had allocated enough space prior to this plus the default size that had been put in placed seemed to increase. Shahed was able to get past the problem he got the website up and running. Currently I have just finished the documentation for RDS I still want to be able to see if there is some way that I can build upon the current project since things seemed to have gotten a bit cold.
