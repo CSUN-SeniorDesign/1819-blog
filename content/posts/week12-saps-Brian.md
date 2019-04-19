@@ -1,6 +1,6 @@
 ---
 title: "Brian's Blog. Week 12 Spring"
-date: 2019-8-1T15:57:18-07:00
+date: 2019-04-19T11:45:32-07:00
 draft: false
 layout: 'posts'
 tags: ["Brian Sandoval", "saps", "week12"]
