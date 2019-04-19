@@ -33,7 +33,7 @@ resource "aws_redshift_security_group" "default" {
 ```
 I am looking to use amazon SNS which is the simple notification service that allows for us to get notified of changes that are going on.I as well want to configure this on our in current infrastructure so that we are not blindsided as we were by the issue that arised earlier this week.
 
-'''
+```
 resource "aws_sns_topic" "default" {
   name = "redshift-events"
 }
