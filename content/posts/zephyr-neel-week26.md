@@ -1,11 +1,11 @@
 ---
-title: "Zephyr Neel Week 256
-date: 2019-04-12T
+title: "Zephyr Neel Week26"
+date: 2019-04-12T13:36:59-07:00
 draft: false
 ---
 <h3> Neel Patel: </h3>
 
-	Assigned duties for this week:
+	- Assigned duties for this week:
 
 		- For this week of the project i was tasked to work on my Lambda script so that i can shutdown my EC2 instance 
 		everyday as professor described in her requirements. Since i did not know anything about Lambda i asked my classmates
