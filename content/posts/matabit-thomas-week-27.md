@@ -1,0 +1,14 @@
+---
+title: "Matabit Thomas Week 27"
+date: 2019-04-19T22:05:08-07:00
+layout: 'posts'
+tags: ["Thomas", "Matabit", "Week 27"]
+draft: false
+---
+
+# Week 27
+One of our major accomplishments as a group this week was figuring out how we can transfer connections between firewall A and B depending on if either of them are down. We wanted to accomplish this so that the floating IP at 130.166.240.18, which was currently pointing to firewall A, could be configured to automatically point itself to firewall B in the event that services on firewall A go down. After doing some research, I was able to find a service for ubuntu called keepalived which acts as a solution for load balancing/failover in the event that you have a lot of traffic reaching your machines or if one of them goes down. It seemed like a simple solution to the problem we were facing and I sent it to the group for them to review. 
+
+Setting up the service was rather simple. The packages to install it were already available in apt repositories so installation was a breeze with just a single command. Once you install it to the machines you want to set up for failover, all you really need to do is create the configuration file and edit the contents to reflect the way you want it set up. This included determining the network interface your machines are present on, setting a priority for each machine, and specifying the virtual IP address (in our case it was 130.166.240.18) which will be transferred between machines in the event of a failover. Whichever machine has the higher priority value set will receive the virtual IP address as long as its services are up and running. After installing and configuring keepalived on both machines, we turned off firewall A to see if the virtual IP address would be assigned to firewall B. After turning the machine off, SSHing into our .18 would put us into firewall B just like we were expecting. Once firewall A was back on and running, the .18 address would take us back into firewall A. 
+
+As far as the firewall rules have gone, Weigley still wants us working with fwbuilder. I may have found the cause of the blockage of port 443 in the fwbuilder file. It may have to do with a rule that negates the entire firewall cluster when considering incoming traffic on http/https. I believe if I undo the negation on the firewall cluster that it will allow traffic on these ports to reach the machines which will allow me to set up our gitlab infrastructure repo on old firewall A and begin the process of creating scripted backups. I have checked with the group but we still aren't ready to attempt a change like that yet.
