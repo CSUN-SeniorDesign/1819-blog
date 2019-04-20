@@ -41,13 +41,13 @@ However, my problem is formatting the result based on the requirement of using c
 3. Pass the output of the encrypted string to the RDS resource.  
 In this way, the password is not written in plaintext in the config file.
 
-		aws kms encrypt --key-id 476badbc-4662-48dc-aec4-70b405aaa456 --plaintext 'tyler-rds-test-password-with-terraform' --query CiphertextBlob --output text
+		aws kms encrypt --key-id 476badbc-4662-48dc-aec4-70b405aaa456 --plaintext 'isnertpasswprd' --query CiphertextBlob --output text
 		
 		data "aws_kms_secret" "rds-password" {
 		  secret {
 		    # ... potentially other configuration ...
 		    name    = "password"
-		    payload = "AQICAHgCqOYfY4je4KdHq/p7/TvVl2HEJkbWBp7mMjB4KtBCbwEQJV94V/zYAhw59kH6OyCXAAAAhTCBggYJKoZIhvcNAQcGoHUwcwIBADBuBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDBSD8Wt/Dc+d2YljcwIBEIBBc1hcPjkK8NFyv6hUkODIcxPe7lD8DPAc+boXLJ/JxjLCKySm/58MNMpva/Ya+6s+cc04n40LJtUsEjpV94Phiwc="
+		    payload = "AQICAHfe4KdHq/fHEJkbWBp7mMjB4KtBCbwEQJV94V/zYAhw59kH6OyCXAAAAhTCBggYJKoZIhvcNAQcGoHUwcwIBasgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDBSD8Wt/Dc+d2YljcwIBEIBBc1hcPjkK8NFyv6hUkODIcdfPAc+boXLJ/JxjLCKySm/58MNMpva/Ya+6s+cc04n40LJtUsEjpV94Phiwc="
 		  }
 		}
 
