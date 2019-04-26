@@ -1,12 +1,12 @@
 ---
-title: "Shahid's Blog. Week 27."
-date: 2018-4-19T15:57:16-07:00
+title: "Shahid's Blog. Week 28."
+date: 2018-4-25T15:57:16-07:00
 draft: false
-tags: ["Shahid Karim", "EAT", "Week 27"]
+tags: ["Shahid Karim", "EAT", "Week 28"]
 layout: 'posts'
 ---
 
-## Shahid's Blog. Week 27
+## Shahid's Blog. Week 28
 #### What's new this week?
 #### Working with Git
 This week I had to learn how to fork a repo and sync content between the fork and the original repo. 
