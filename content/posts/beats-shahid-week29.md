@@ -2,7 +2,7 @@
 title: "Shahid's Blog. Week 29."
 date: 2019-05-02T12:17:21-07:00
 layout: 'posts'
-tags: ["Shahid Karim", "EAT", "Week 28"]
+tags: ["Shahid Karim", "EAT", "Week 29"]
 ---
 
 ## Shahid's Blog. Week 29
