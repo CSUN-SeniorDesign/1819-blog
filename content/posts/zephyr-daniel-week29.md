@@ -2,7 +2,7 @@
 title: "Senior Project - Week 29"
 date: 2019-05-03T10:34:52-07:00
 draft: false
-tags: ["Daniel". "Zephyr", "Week 29"]
+tags: ["Daniel", "Zephyr", "Week 29"]
 ---
 
 # Week  29
