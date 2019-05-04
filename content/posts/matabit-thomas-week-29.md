@@ -1,0 +1,12 @@
+---
+title: "Matabit Thomas Week 29"
+date: 2019-05-03T20:51:34-07:00
+layout: 'posts'
+tags: ["Thomas", "Matabit", "Week 29"]
+draft: false
+---
+
+# Week 29
+This past week my group and I have been working on tidying up and testing some final things before the final presentation. I was tasked with making sure fwbuilder is properly implemented on new firewall A and is creating iptables rules that correctly filter network traffic. The fwbuilder .fwb configuration file was transferred to new A from old A so we could have a starting point to work with. A few of the objects defined within this file needed to be changed to properly reflect the current network setup such as some IP addresses, netmasks, and MAC addresses. After the objects were adjusted within fwbuilder, I compiled the current ruleset into the executable files and executed the fwa.fw file which generated the iptables required to run the configuration setup in fwbuilder. The process seemed to hang forever, but opening a new terminal and SSHing into new A and running an "iptables -nvL" command revealed that the iptables rules actually did build and that the previous terminal that I ran the executable on just got disconnected from the server.
+
+Now that I know the iptables is getting configured from the fwbuilder executable, it was time to test some things out to make sure the firewall was working the way it should. I changed some rules in fwbuilder such as disallowing SSH access to the moodle machine on the address 130.166.47.10 and recompiling and executing to change the iptable rules. However, after re-logging back into new A, I was still able to SSH into the moodle machine. I may need to test this rule by trying to SSH from my local machine rather than the firewall machine to test if this rule really works the way it should. Right now the plan is to design a few more tests on our firewall to make sure it is allowing or blocking the traffic that it is supposed to be. This may involve changing some rules temporarily and re-compiling to see if there is any difference in the way it handles network traffic. If the differences are preset and predictable, then we know the firewall is working the way it is supposed to. For the upcoming week, I plan on continuing to test the firewall on different rules to make sure it is configured properly and running the way it was designed to.
